@@ -1,8 +1,8 @@
-Module.register("MMM-forecast-io", {
+Module.register("MMM-tomorrow-io", {
 
   defaults: {
     apiKey: "",
-    apiBase: "https://api.darksky.net/forecast",
+    apiBase: "https://api.tomorrow.io/v4/timelines",
     units: config.units,
     language: config.language,
     updateInterval: 5 * 60 * 1000, // every 5 minutes
