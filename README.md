@@ -1,4 +1,4 @@
-# MMM-Forecast-IO
+# MMM-Tomorrow-IO
 This an extension for [MagicMirror](https://github.com/MichMich/MagicMirror) that adds localized weather using the [Dark Sky API](https://darksky.net/dev/) (originally Forecast.io) -- the same service that powers the [Dark Sky App](https://darksky.net/app/).
 
 This module makes use of the [geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation) to determine the location of the mirror. This can be turned off by setting `latitude` and `longitude` in the module's config (see [Configuration options below](#configuration-options)).
@@ -13,11 +13,11 @@ To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
   {
-    module: 'MMM-forecast-io',
+    module: 'MMM-tomorrow-io',
     position: 'top_right',  // This can be any of the regions.
     config: {
       // See 'Configuration options' for more information.
-      apiKey: 'abcde12345abcde12345abcde12345ab', // Dark Sky API key.
+      apiKey: 'abcde12345abcde12345abcde12345ab', // Tomorrow API key.
       // Only required if geolocation doesn't work:
       latitude:   16.77532,
       longitude: -3.008265
